@@ -1,0 +1,90 @@
+major_id,major_name,soc_codes,occupation_titles
+business-administration-and-management,Business Administration & Management,11-1021.00,General and Operations Managers
+accounting,Accounting,13-2011.00,Accountants and Auditors
+finance,Finance,13-2051.00 / 13-2052.00,Financial and Investment Analysts + Personal Financial Advisors
+marketing,Marketing,13-1161.00 / 11-2021.00,Market Research Analysts and Marketing Specialists + Marketing Managers
+human-resources-management,Human Resources Management,11-3121.00 / 13-1071.00,Human Resources Managers + Human Resources Specialists
+international-business,International Business,13-1111.00,Management Analysts
+supply-chain-and-logistics-mgmt,Supply Chain & Logistics Mgmt.,13-1081.00 / 11-3071.04,Logisticians + Supply Chain Managers
+entrepreneurship,Entrepreneurship,11-1011.00,Chief Executives
+hospitality-and-tourism-mgmt,Hospitality & Tourism Mgmt.,11-9081.00 / 11-9051.00,Lodging Managers + Food Service Managers
+real-estate,Real Estate,41-9021.00 / 41-9022.00,Real Estate Brokers + Real Estate Sales Agents
+actuarial-science,Actuarial Science,15-2011.00,Actuaries
+nursing-bsn,Nursing (BSN),29-1141.00,Registered Nurses
+public-health,Public Health,21-1091.00 / 19-5011.00,Health Education Specialists + Occupational Health and Safety Specialists
+health-administration,Health Administration,11-9111.00,Medical and Health Services Managers
+athletic-training,Athletic Training,29-9091.00,Athletic Trainers
+nutrition-and-dietetics,Nutrition & Dietetics,29-1031.00,Dietitians and Nutritionists
+health-sciences-pre-professional,Health Sciences (Pre-Professional),21-1091.00,Health Education Specialists
+radiologic-and-diagnostic-tech,Radiologic & Diagnostic Tech.,29-2034.00,Radiologic Technologists and Technicians
+speech-language-pathology-pre-grad,Speech-Language Pathology (Pre-Grad),29-1127.00,Speech-Language Pathologists
+occupational-therapy-pre-grad,Occupational Therapy (Pre-Grad),29-1122.00,Occupational Therapists
+computer-science,Computer Science,15-1252.00,Software Developers
+information-technology,Information Technology,15-1244.00 / 15-1211.00,Network and Computer Systems Administrators + Computer Systems Analysts
+cybersecurity,Cybersecurity,15-1212.00,Information Security Analysts
+data-science,Data Science,15-2051.00,Data Scientists
+software-engineering,Software Engineering,15-1252.00 / 15-1253.00,Software Developers + Software Quality Assurance Analysts and Testers
+game-design-and-development,Game Design & Development,15-1255.01,Video Game Designers
+mechanical-engineering,Mechanical Engineering,17-2141.00,Mechanical Engineers
+civil-engineering,Civil Engineering,17-2051.00,Civil Engineers
+electrical-engineering,Electrical Engineering,17-2071.00,Electrical Engineers
+computer-engineering,Computer Engineering,17-2061.00,Computer Hardware Engineers
+chemical-engineering,Chemical Engineering,17-2041.00,Chemical Engineers
+biomedical-engineering,Biomedical Engineering,17-2031.00,Bioengineers and Biomedical Engineers
+industrial-and-systems-engineering,Industrial & Systems Engineering,17-2112.00,Industrial Engineers
+aerospace-engineering,Aerospace Engineering,17-2011.00,Aerospace Engineers
+environmental-engineering,Environmental Engineering,17-2081.00,Environmental Engineers
+materials-science-and-engineering,Materials Science & Engineering,17-2131.00,Materials Engineers
+architecture,Architecture,17-1011.00,"Architects, Except Landscape and Naval"
+general-engineering,General Engineering,17-2141.00 / 17-2051.00 / 17-2112.00,Mechanical Engineers + Civil Engineers + Industrial Engineers
+biology-general,Biology (General),19-1029.04,Biologists
+biochemistry,Biochemistry,19-1021.00,Biochemists and Biophysicists
+neuroscience,Neuroscience,19-1042.00,"Medical Scientists, Except Epidemiologists"
+microbiology,Microbiology,19-1022.00,Microbiologists
+genetics,Genetics,19-1029.03,Geneticists
+marine-biology,Marine Biology,19-1023.00,Zoologists and Wildlife Biologists
+physics,Physics,19-2012.00,Physicists
+chemistry,Chemistry,19-2031.00,Chemists
+geology-and-earth-sciences,Geology & Earth Sciences,19-2042.00,"Geoscientists, Except Hydrologists and Geographers"
+mathematics-and-statistics,Mathematics & Statistics,15-2021.00 / 15-2041.00,Mathematicians + Statisticians
+psychology,Psychology,19-3033.00,Clinical and Counseling Psychologists
+political-science,Political Science,19-3094.00,Political Scientists
+sociology,Sociology,19-3041.00,Sociologists
+economics,Economics,19-3011.00,Economists
+anthropology,Anthropology,19-3091.00,Anthropologists and Archeologists
+international-relations,International Relations,19-3094.00,Political Scientists
+criminology,Criminology,21-1092.00,Probation Officers and Correctional Treatment Specialists
+english-language-and-literature,English Language & Literature,27-3043.00 / 27-3041.00,Writers and Authors + Editors
+history,History,19-3093.00,Historians
+foreign-languages-and-linguistics,Foreign Languages & Linguistics,27-3091.00,Interpreters and Translators
+philosophy-and-religious-studies,Philosophy & Religious Studies,25-1126.00,"Philosophy and Religion Teachers, Postsecondary"
+communication-studies,Communication Studies,27-3031.00,Public Relations Specialists
+journalism,Journalism,27-3023.00,"News Analysts, Reporters, and Journalists"
+public-relations-and-advertising,Public Relations & Advertising,27-3031.00 / 11-2011.00,Public Relations Specialists + Advertising and Promotions Managers
+film-and-media-production,Film & Media Production,27-2012.00 / 27-4032.00,Producers and Directors + Film and Video Editors
+graphic-and-digital-design,Graphic & Digital Design,27-1024.00,Graphic Designers
+studio-art-and-fine-arts,Studio Art & Fine Arts,27-1013.00,"Fine Artists, Including Painters, Sculptors, and Illustrators"
+music-performance,Music Performance,27-2042.00,Musicians and Singers
+theater-and-drama,Theater & Drama,27-2011.00,Actors
+film-studies,Film Studies,27-4032.00,Film and Video Editors
+photography,Photography,27-4021.00,Photographers
+fashion-design,Fashion Design,27-1022.00,Fashion Designers
+elementary-education,Elementary Education,25-2021.00,"Elementary School Teachers, Except Special Education"
+secondary-education,Secondary Education,25-2031.00,"Secondary School Teachers, Except Special and Career/Technical Education"
+special-education,Special Education,25-2056.00,"Special Education Teachers, Elementary School"
+early-childhood-education,Early Childhood Education,25-2011.00 / 25-2012.00,"Preschool Teachers, Except Special Education + Kindergarten Teachers, Except Special Education"
+physical-education,Physical Education,25-2059.01,Adapted Physical Education Specialists
+criminal-justice,Criminal Justice,33-3051.00 / 21-1092.00,Police and Sheriff's Patrol Officers + Probation Officers and Correctional Treatment Specialists
+social-work,Social Work,21-1022.00 / 21-1021.00,"Healthcare Social Workers + Child, Family, and School Social Workers"
+public-administration,Public Administration,11-9151.00,Social and Community Service Managers
+urban-and-regional-planning,Urban & Regional Planning,19-3051.00,Urban and Regional Planners
+fire-science,Fire Science,33-2011.00,Firefighters
+homeland-security,Homeland Security,33-3021.06,Intelligence Analysts
+agricultural-science,Agricultural Science,19-1013.00,Soil and Plant Scientists
+animal-science,Animal Science,19-1011.00,Animal Scientists
+environmental-science,Environmental Science,19-2041.00,"Environmental Scientists and Specialists, Including Health"
+sport-management,Sport Management,11-9072.00,"Entertainment and Recreation Managers, Except Gambling"
+recreation-and-leisure-studies,Recreation & Leisure Studies,29-1125.00,Recreational Therapists
+fitness-and-wellness,Fitness & Wellness,39-9031.00,Exercise Trainers and Group Fitness Instructors
+family-and-consumer-sciences,Family & Consumer Sciences,25-1192.00,"Family and Consumer Sciences Teachers, Postsecondary"
+theology-and-divinity,Theology & Divinity,21-2011.00,Clergy

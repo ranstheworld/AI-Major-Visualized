@@ -1,0 +1,1124 @@
+{
+  "business-administration-and-management": {
+    "score": 4.5,
+    "human_beta": 0.385,
+    "gpt4_beta": 0.481,
+    "soc_codes": [
+      "11-1021.00"
+    ],
+    "occupation_titles": [
+      "General and Operations Managers"
+    ],
+    "cited": true
+  },
+  "accounting": {
+    "score": 5.5,
+    "human_beta": 0.52,
+    "gpt4_beta": 0.56,
+    "soc_codes": [
+      "13-2011.00"
+    ],
+    "occupation_titles": [
+      "Accountants and Auditors"
+    ],
+    "cited": true
+  },
+  "finance": {
+    "score": 5.5,
+    "human_beta": 0.586,
+    "gpt4_beta": 0.481,
+    "soc_codes": [
+      "13-2051.00",
+      "13-2052.00"
+    ],
+    "occupation_titles": [
+      "Financial and Investment Analysts",
+      "Personal Financial Advisors"
+    ],
+    "cited": true
+  },
+  "marketing": {
+    "score": 5.5,
+    "human_beta": 0.578,
+    "gpt4_beta": 0.5,
+    "soc_codes": [
+      "13-1161.00",
+      "11-2021.00"
+    ],
+    "occupation_titles": [
+      "Market Research Analysts and Marketing Specialists",
+      "Marketing Managers"
+    ],
+    "cited": true
+  },
+  "human-resources-management": {
+    "score": 5.5,
+    "human_beta": 0.519,
+    "gpt4_beta": 0.562,
+    "soc_codes": [
+      "11-3121.00",
+      "13-1071.00"
+    ],
+    "occupation_titles": [
+      "Human Resources Managers",
+      "Human Resources Specialists"
+    ],
+    "cited": true
+  },
+  "international-business": {
+    "score": 4.5,
+    "human_beta": 0.5,
+    "gpt4_beta": 0.405,
+    "soc_codes": [
+      "13-1111.00"
+    ],
+    "occupation_titles": [
+      "Management Analysts"
+    ],
+    "cited": true
+  },
+  "supply-chain-and-logistics-mgmt": {
+    "score": 5.0,
+    "human_beta": 0.464,
+    "gpt4_beta": 0.495,
+    "soc_codes": [
+      "13-1081.00",
+      "11-3071.04"
+    ],
+    "occupation_titles": [
+      "Logisticians",
+      "Supply Chain Managers"
+    ],
+    "cited": true
+  },
+  "entrepreneurship": {
+    "score": 4.0,
+    "human_beta": 0.35,
+    "gpt4_beta": 0.46,
+    "soc_codes": [
+      "11-1011.00"
+    ],
+    "occupation_titles": [
+      "Chief Executives"
+    ],
+    "cited": true
+  },
+  "hospitality-and-tourism-mgmt": {
+    "score": 4.0,
+    "human_beta": 0.388,
+    "gpt4_beta": 0.437,
+    "soc_codes": [
+      "11-9081.00",
+      "11-9051.00"
+    ],
+    "occupation_titles": [
+      "Lodging Managers",
+      "Food Service Managers"
+    ],
+    "cited": true
+  },
+  "real-estate": {
+    "score": 4.5,
+    "human_beta": 0.416,
+    "gpt4_beta": 0.469,
+    "soc_codes": [
+      "41-9021.00",
+      "41-9022.00"
+    ],
+    "occupation_titles": [
+      "Real Estate Brokers",
+      "Real Estate Sales Agents"
+    ],
+    "cited": true
+  },
+  "actuarial-science": {
+    "score": 5.0,
+    "human_beta": 0.537,
+    "gpt4_beta": 0.5,
+    "soc_codes": [
+      "15-2011.00"
+    ],
+    "occupation_titles": [
+      "Actuaries"
+    ],
+    "cited": true
+  },
+  "nursing-bsn": {
+    "score": 3.5,
+    "human_beta": 0.381,
+    "gpt4_beta": 0.333,
+    "soc_codes": [
+      "29-1141.00"
+    ],
+    "occupation_titles": [
+      "Registered Nurses"
+    ],
+    "cited": true
+  },
+  "public-health": {
+    "score": 4.5,
+    "human_beta": 0.429,
+    "gpt4_beta": 0.433,
+    "soc_codes": [
+      "21-1091.00",
+      "19-5011.00"
+    ],
+    "occupation_titles": [
+      "Health Education Specialists",
+      "Occupational Health and Safety Specialists"
+    ],
+    "cited": true
+  },
+  "health-administration": {
+    "score": 4.0,
+    "human_beta": 0.371,
+    "gpt4_beta": 0.429,
+    "soc_codes": [
+      "11-9111.00"
+    ],
+    "occupation_titles": [
+      "Medical and Health Services Managers"
+    ],
+    "cited": true
+  },
+  "athletic-training": {
+    "score": 3.5,
+    "human_beta": 0.407,
+    "gpt4_beta": 0.279,
+    "soc_codes": [
+      "29-9091.00"
+    ],
+    "occupation_titles": [
+      "Athletic Trainers"
+    ],
+    "cited": true
+  },
+  "nutrition-and-dietetics": {
+    "score": 5.0,
+    "human_beta": 0.463,
+    "gpt4_beta": 0.549,
+    "soc_codes": [
+      "29-1031.00"
+    ],
+    "occupation_titles": [
+      "Dietitians and Nutritionists"
+    ],
+    "cited": true
+  },
+  "health-sciences-pre-professional": {
+    "score": 5.0,
+    "human_beta": 0.5,
+    "gpt4_beta": 0.532,
+    "soc_codes": [
+      "21-1091.00"
+    ],
+    "occupation_titles": [
+      "Health Education Specialists"
+    ],
+    "cited": true
+  },
+  "radiologic-and-diagnostic-tech": {
+    "score": 3.5,
+    "human_beta": 0.281,
+    "gpt4_beta": 0.377,
+    "soc_codes": [
+      "29-2034.00"
+    ],
+    "occupation_titles": [
+      "Radiologic Technologists and Technicians"
+    ],
+    "cited": true
+  },
+  "speech-language-pathology-pre-grad": {
+    "score": 4.0,
+    "human_beta": 0.39,
+    "gpt4_beta": 0.451,
+    "soc_codes": [
+      "29-1127.00"
+    ],
+    "occupation_titles": [
+      "Speech-Language Pathologists"
+    ],
+    "cited": true
+  },
+  "occupational-therapy-pre-grad": {
+    "score": 3.5,
+    "human_beta": 0.394,
+    "gpt4_beta": 0.303,
+    "soc_codes": [
+      "29-1122.00"
+    ],
+    "occupation_titles": [
+      "Occupational Therapists"
+    ],
+    "cited": true
+  },
+  "computer-science": {
+    "score": 6.5,
+    "human_beta": 0.447,
+    "gpt4_beta": 0.868,
+    "soc_codes": [
+      "15-1252.00"
+    ],
+    "occupation_titles": [
+      "Software Developers"
+    ],
+    "cited": true
+  },
+  "information-technology": {
+    "score": 6.0,
+    "human_beta": 0.492,
+    "gpt4_beta": 0.74,
+    "soc_codes": [
+      "15-1244.00",
+      "15-1211.00"
+    ],
+    "occupation_titles": [
+      "Network and Computer Systems Administrators",
+      "Computer Systems Analysts"
+    ],
+    "cited": true
+  },
+  "cybersecurity": {
+    "score": 6.0,
+    "human_beta": 0.543,
+    "gpt4_beta": 0.652,
+    "soc_codes": [
+      "15-1212.00"
+    ],
+    "occupation_titles": [
+      "Information Security Analysts"
+    ],
+    "cited": true
+  },
+  "data-science": {
+    "score": 6.5,
+    "human_beta": 0.594,
+    "gpt4_beta": 0.75,
+    "soc_codes": [
+      "15-2051.00"
+    ],
+    "occupation_titles": [
+      "Data Scientists"
+    ],
+    "cited": true
+  },
+  "software-engineering": {
+    "score": 7.0,
+    "human_beta": 0.531,
+    "gpt4_beta": 0.873,
+    "soc_codes": [
+      "15-1252.00",
+      "15-1253.00"
+    ],
+    "occupation_titles": [
+      "Software Developers",
+      "Software Quality Assurance Analysts and Testers"
+    ],
+    "cited": true
+  },
+  "game-design-and-development": {
+    "score": 6.0,
+    "human_beta": 0.583,
+    "gpt4_beta": 0.667,
+    "soc_codes": [
+      "15-1255.01"
+    ],
+    "occupation_titles": [
+      "Video Game Designers"
+    ],
+    "cited": true
+  },
+  "mechanical-engineering": {
+    "score": 4.0,
+    "human_beta": 0.372,
+    "gpt4_beta": 0.453,
+    "soc_codes": [
+      "17-2141.00"
+    ],
+    "occupation_titles": [
+      "Mechanical Engineers"
+    ],
+    "cited": true
+  },
+  "civil-engineering": {
+    "score": 4.0,
+    "human_beta": 0.375,
+    "gpt4_beta": 0.446,
+    "soc_codes": [
+      "17-2051.00"
+    ],
+    "occupation_titles": [
+      "Civil Engineers"
+    ],
+    "cited": true
+  },
+  "electrical-engineering": {
+    "score": 5.0,
+    "human_beta": 0.406,
+    "gpt4_beta": 0.562,
+    "soc_codes": [
+      "17-2071.00"
+    ],
+    "occupation_titles": [
+      "Electrical Engineers"
+    ],
+    "cited": true
+  },
+  "computer-engineering": {
+    "score": 5.0,
+    "human_beta": 0.318,
+    "gpt4_beta": 0.727,
+    "soc_codes": [
+      "17-2061.00"
+    ],
+    "occupation_titles": [
+      "Computer Hardware Engineers"
+    ],
+    "cited": true
+  },
+  "chemical-engineering": {
+    "score": 4.0,
+    "human_beta": 0.346,
+    "gpt4_beta": 0.462,
+    "soc_codes": [
+      "17-2041.00"
+    ],
+    "occupation_titles": [
+      "Chemical Engineers"
+    ],
+    "cited": true
+  },
+  "biomedical-engineering": {
+    "score": 5.5,
+    "human_beta": 0.538,
+    "gpt4_beta": 0.59,
+    "soc_codes": [
+      "17-2031.00"
+    ],
+    "occupation_titles": [
+      "Bioengineers and Biomedical Engineers"
+    ],
+    "cited": true
+  },
+  "industrial-and-systems-engineering": {
+    "score": 5.5,
+    "human_beta": 0.605,
+    "gpt4_beta": 0.526,
+    "soc_codes": [
+      "17-2112.00"
+    ],
+    "occupation_titles": [
+      "Industrial Engineers"
+    ],
+    "cited": true
+  },
+  "aerospace-engineering": {
+    "score": 5.5,
+    "human_beta": 0.518,
+    "gpt4_beta": 0.571,
+    "soc_codes": [
+      "17-2011.00"
+    ],
+    "occupation_titles": [
+      "Aerospace Engineers"
+    ],
+    "cited": true
+  },
+  "environmental-engineering": {
+    "score": 5.5,
+    "human_beta": 0.5,
+    "gpt4_beta": 0.556,
+    "soc_codes": [
+      "17-2081.00"
+    ],
+    "occupation_titles": [
+      "Environmental Engineers"
+    ],
+    "cited": true
+  },
+  "materials-science-and-engineering": {
+    "score": 4.0,
+    "human_beta": 0.317,
+    "gpt4_beta": 0.488,
+    "soc_codes": [
+      "17-2131.00"
+    ],
+    "occupation_titles": [
+      "Materials Engineers"
+    ],
+    "cited": true
+  },
+  "architecture": {
+    "score": 4.5,
+    "human_beta": 0.43,
+    "gpt4_beta": 0.488,
+    "soc_codes": [
+      "17-1011.00"
+    ],
+    "occupation_titles": [
+      "Architects, Except Landscape and Naval"
+    ],
+    "cited": true
+  },
+  "general-engineering": {
+    "score": 4.5,
+    "human_beta": 0.451,
+    "gpt4_beta": 0.475,
+    "soc_codes": [
+      "17-2141.00",
+      "17-2051.00",
+      "17-2112.00"
+    ],
+    "occupation_titles": [
+      "Mechanical Engineers",
+      "Civil Engineers",
+      "Industrial Engineers"
+    ],
+    "cited": true
+  },
+  "biology-general": {
+    "score": 4.5,
+    "human_beta": 0.382,
+    "gpt4_beta": 0.485,
+    "soc_codes": [
+      "19-1029.04"
+    ],
+    "occupation_titles": [
+      "Biologists"
+    ],
+    "cited": true
+  },
+  "biochemistry": {
+    "score": 4.5,
+    "human_beta": 0.443,
+    "gpt4_beta": 0.455,
+    "soc_codes": [
+      "19-1021.00"
+    ],
+    "occupation_titles": [
+      "Biochemists and Biophysicists"
+    ],
+    "cited": true
+  },
+  "neuroscience": {
+    "score": 5.5,
+    "human_beta": 0.568,
+    "gpt4_beta": 0.523,
+    "soc_codes": [
+      "19-1042.00"
+    ],
+    "occupation_titles": [
+      "Medical Scientists, Except Epidemiologists"
+    ],
+    "cited": true
+  },
+  "microbiology": {
+    "score": 3.5,
+    "human_beta": 0.312,
+    "gpt4_beta": 0.396,
+    "soc_codes": [
+      "19-1022.00"
+    ],
+    "occupation_titles": [
+      "Microbiologists"
+    ],
+    "cited": true
+  },
+  "genetics": {
+    "score": 5.0,
+    "human_beta": 0.477,
+    "gpt4_beta": 0.512,
+    "soc_codes": [
+      "19-1029.03"
+    ],
+    "occupation_titles": [
+      "Geneticists"
+    ],
+    "cited": true
+  },
+  "marine-biology": {
+    "score": 5.0,
+    "human_beta": 0.524,
+    "gpt4_beta": 0.452,
+    "soc_codes": [
+      "19-1023.00"
+    ],
+    "occupation_titles": [
+      "Zoologists and Wildlife Biologists"
+    ],
+    "cited": true
+  },
+  "physics": {
+    "score": 7.0,
+    "human_beta": 0.636,
+    "gpt4_beta": 0.75,
+    "soc_codes": [
+      "19-2012.00"
+    ],
+    "occupation_titles": [
+      "Physicists"
+    ],
+    "cited": true
+  },
+  "chemistry": {
+    "score": 4.0,
+    "human_beta": 0.4,
+    "gpt4_beta": 0.38,
+    "soc_codes": [
+      "19-2031.00"
+    ],
+    "occupation_titles": [
+      "Chemists"
+    ],
+    "cited": true
+  },
+  "geology-and-earth-sciences": {
+    "score": 4.5,
+    "human_beta": 0.478,
+    "gpt4_beta": 0.467,
+    "soc_codes": [
+      "19-2042.00"
+    ],
+    "occupation_titles": [
+      "Geoscientists, Except Hydrologists and Geographers"
+    ],
+    "cited": true
+  },
+  "mathematics-and-statistics": {
+    "score": 8.0,
+    "human_beta": 0.701,
+    "gpt4_beta": 0.895,
+    "soc_codes": [
+      "15-2021.00",
+      "15-2041.00"
+    ],
+    "occupation_titles": [
+      "Mathematicians",
+      "Statisticians"
+    ],
+    "cited": true
+  },
+  "psychology": {
+    "score": 4.5,
+    "human_beta": 0.509,
+    "gpt4_beta": 0.37,
+    "soc_codes": [
+      "19-3033.00"
+    ],
+    "occupation_titles": [
+      "Clinical and Counseling Psychologists"
+    ],
+    "cited": true
+  },
+  "political-science": {
+    "score": 5.0,
+    "human_beta": 0.542,
+    "gpt4_beta": 0.479,
+    "soc_codes": [
+      "19-3094.00"
+    ],
+    "occupation_titles": [
+      "Political Scientists"
+    ],
+    "cited": true
+  },
+  "sociology": {
+    "score": 6.0,
+    "human_beta": 0.615,
+    "gpt4_beta": 0.538,
+    "soc_codes": [
+      "19-3041.00"
+    ],
+    "occupation_titles": [
+      "Sociologists"
+    ],
+    "cited": true
+  },
+  "economics": {
+    "score": 5.0,
+    "human_beta": 0.458,
+    "gpt4_beta": 0.5,
+    "soc_codes": [
+      "19-3011.00"
+    ],
+    "occupation_titles": [
+      "Economists"
+    ],
+    "cited": true
+  },
+  "anthropology": {
+    "score": 5.0,
+    "human_beta": 0.517,
+    "gpt4_beta": 0.44,
+    "soc_codes": [
+      "19-3091.00"
+    ],
+    "occupation_titles": [
+      "Anthropologists and Archeologists"
+    ],
+    "cited": true
+  },
+  "international-relations": {
+    "score": 5.0,
+    "human_beta": 0.542,
+    "gpt4_beta": 0.479,
+    "soc_codes": [
+      "19-3094.00"
+    ],
+    "occupation_titles": [
+      "Political Scientists"
+    ],
+    "cited": true
+  },
+  "criminology": {
+    "score": 4.0,
+    "human_beta": 0.447,
+    "gpt4_beta": 0.395,
+    "soc_codes": [
+      "21-1092.00"
+    ],
+    "occupation_titles": [
+      "Probation Officers and Correctional Treatment Specialists"
+    ],
+    "cited": true
+  },
+  "english-language-and-literature": {
+    "score": 7.5,
+    "human_beta": 0.727,
+    "gpt4_beta": 0.756,
+    "soc_codes": [
+      "27-3043.00",
+      "27-3041.00"
+    ],
+    "occupation_titles": [
+      "Writers and Authors",
+      "Editors"
+    ],
+    "cited": true
+  },
+  "history": {
+    "score": 5.0,
+    "human_beta": 0.5,
+    "gpt4_beta": 0.474,
+    "soc_codes": [
+      "19-3093.00"
+    ],
+    "occupation_titles": [
+      "Historians"
+    ],
+    "cited": true
+  },
+  "foreign-languages-and-linguistics": {
+    "score": 8.5,
+    "human_beta": 0.84,
+    "gpt4_beta": 0.88,
+    "soc_codes": [
+      "27-3091.00"
+    ],
+    "occupation_titles": [
+      "Interpreters and Translators"
+    ],
+    "cited": true
+  },
+  "philosophy-and-religious-studies": {
+    "score": 5.5,
+    "human_beta": 0.591,
+    "gpt4_beta": 0.511,
+    "soc_codes": [
+      "25-1126.00"
+    ],
+    "occupation_titles": [
+      "Philosophy and Religion Teachers, Postsecondary"
+    ],
+    "cited": true
+  },
+  "communication-studies": {
+    "score": 7.0,
+    "human_beta": 0.788,
+    "gpt4_beta": 0.591,
+    "soc_codes": [
+      "27-3031.00"
+    ],
+    "occupation_titles": [
+      "Public Relations Specialists"
+    ],
+    "cited": true
+  },
+  "journalism": {
+    "score": 6.5,
+    "human_beta": 0.633,
+    "gpt4_beta": 0.65,
+    "soc_codes": [
+      "27-3023.00"
+    ],
+    "occupation_titles": [
+      "News Analysts, Reporters, and Journalists"
+    ],
+    "cited": true
+  },
+  "public-relations-and-advertising": {
+    "score": 6.0,
+    "human_beta": 0.667,
+    "gpt4_beta": 0.534,
+    "soc_codes": [
+      "27-3031.00",
+      "11-2011.00"
+    ],
+    "occupation_titles": [
+      "Public Relations Specialists",
+      "Advertising and Promotions Managers"
+    ],
+    "cited": true
+  },
+  "film-and-media-production": {
+    "score": 5.0,
+    "human_beta": 0.475,
+    "gpt4_beta": 0.498,
+    "soc_codes": [
+      "27-2012.00",
+      "27-4032.00"
+    ],
+    "occupation_titles": [
+      "Producers and Directors",
+      "Film and Video Editors"
+    ],
+    "cited": true
+  },
+  "graphic-and-digital-design": {
+    "score": 4.5,
+    "human_beta": 0.411,
+    "gpt4_beta": 0.5,
+    "soc_codes": [
+      "27-1024.00"
+    ],
+    "occupation_titles": [
+      "Graphic Designers"
+    ],
+    "cited": true
+  },
+  "studio-art-and-fine-arts": {
+    "score": 3.5,
+    "human_beta": 0.312,
+    "gpt4_beta": 0.425,
+    "soc_codes": [
+      "27-1013.00"
+    ],
+    "occupation_titles": [
+      "Fine Artists, Including Painters, Sculptors, and Illustrators"
+    ],
+    "cited": true
+  },
+  "music-performance": {
+    "score": 2.5,
+    "human_beta": 0.133,
+    "gpt4_beta": 0.408,
+    "soc_codes": [
+      "27-2042.00"
+    ],
+    "occupation_titles": [
+      "Musicians and Singers"
+    ],
+    "cited": true
+  },
+  "theater-and-drama": {
+    "score": 1.5,
+    "human_beta": 0.156,
+    "gpt4_beta": 0.188,
+    "soc_codes": [
+      "27-2011.00"
+    ],
+    "occupation_titles": [
+      "Actors"
+    ],
+    "cited": true
+  },
+  "film-studies": {
+    "score": 5.0,
+    "human_beta": 0.472,
+    "gpt4_beta": 0.528,
+    "soc_codes": [
+      "27-4032.00"
+    ],
+    "occupation_titles": [
+      "Film and Video Editors"
+    ],
+    "cited": true
+  },
+  "photography": {
+    "score": 3.0,
+    "human_beta": 0.219,
+    "gpt4_beta": 0.385,
+    "soc_codes": [
+      "27-4021.00"
+    ],
+    "occupation_titles": [
+      "Photographers"
+    ],
+    "cited": true
+  },
+  "fashion-design": {
+    "score": 4.0,
+    "human_beta": 0.375,
+    "gpt4_beta": 0.391,
+    "soc_codes": [
+      "27-1022.00"
+    ],
+    "occupation_titles": [
+      "Fashion Designers"
+    ],
+    "cited": true
+  },
+  "elementary-education": {
+    "score": 3.0,
+    "human_beta": 0.311,
+    "gpt4_beta": 0.311,
+    "soc_codes": [
+      "25-2021.00"
+    ],
+    "occupation_titles": [
+      "Elementary School Teachers, Except Special Education"
+    ],
+    "cited": true
+  },
+  "secondary-education": {
+    "score": 3.5,
+    "human_beta": 0.341,
+    "gpt4_beta": 0.333,
+    "soc_codes": [
+      "25-2031.00"
+    ],
+    "occupation_titles": [
+      "Secondary School Teachers, Except Special and Career/Technical Education"
+    ],
+    "cited": true
+  },
+  "special-education": {
+    "score": 3.5,
+    "human_beta": 0.35,
+    "gpt4_beta": 0.317,
+    "soc_codes": [
+      "25-2056.00"
+    ],
+    "occupation_titles": [
+      "Special Education Teachers, Elementary School"
+    ],
+    "cited": true
+  },
+  "early-childhood-education": {
+    "score": 2.5,
+    "human_beta": 0.303,
+    "gpt4_beta": 0.23,
+    "soc_codes": [
+      "25-2011.00",
+      "25-2012.00"
+    ],
+    "occupation_titles": [
+      "Preschool Teachers, Except Special Education",
+      "Kindergarten Teachers, Except Special Education"
+    ],
+    "cited": true
+  },
+  "physical-education": {
+    "score": 3.5,
+    "human_beta": 0.25,
+    "gpt4_beta": 0.475,
+    "soc_codes": [
+      "25-2059.01"
+    ],
+    "occupation_titles": [
+      "Adapted Physical Education Specialists"
+    ],
+    "cited": true
+  },
+  "criminal-justice": {
+    "score": 3.5,
+    "human_beta": 0.34,
+    "gpt4_beta": 0.322,
+    "soc_codes": [
+      "33-3051.00",
+      "21-1092.00"
+    ],
+    "occupation_titles": [
+      "Police and Sheriff's Patrol Officers",
+      "Probation Officers and Correctional Treatment Specialists"
+    ],
+    "cited": true
+  },
+  "social-work": {
+    "score": 3.5,
+    "human_beta": 0.361,
+    "gpt4_beta": 0.293,
+    "soc_codes": [
+      "21-1022.00",
+      "21-1021.00"
+    ],
+    "occupation_titles": [
+      "Healthcare Social Workers",
+      "Child, Family, and School Social Workers"
+    ],
+    "cited": true
+  },
+  "public-administration": {
+    "score": 4.0,
+    "human_beta": 0.446,
+    "gpt4_beta": 0.393,
+    "soc_codes": [
+      "11-9151.00"
+    ],
+    "occupation_titles": [
+      "Social and Community Service Managers"
+    ],
+    "cited": true
+  },
+  "urban-and-regional-planning": {
+    "score": 5.5,
+    "human_beta": 0.58,
+    "gpt4_beta": 0.477,
+    "soc_codes": [
+      "19-3051.00"
+    ],
+    "occupation_titles": [
+      "Urban and Regional Planners"
+    ],
+    "cited": true
+  },
+  "fire-science": {
+    "score": 1.0,
+    "human_beta": 0.088,
+    "gpt4_beta": 0.14,
+    "soc_codes": [
+      "33-2011.00"
+    ],
+    "occupation_titles": [
+      "Firefighters"
+    ],
+    "cited": true
+  },
+  "homeland-security": {
+    "score": 4.5,
+    "human_beta": 0.397,
+    "gpt4_beta": 0.529,
+    "soc_codes": [
+      "33-3021.06"
+    ],
+    "occupation_titles": [
+      "Intelligence Analysts"
+    ],
+    "cited": true
+  },
+  "agricultural-science": {
+    "score": 5.5,
+    "human_beta": 0.63,
+    "gpt4_beta": 0.489,
+    "soc_codes": [
+      "19-1013.00"
+    ],
+    "occupation_titles": [
+      "Soil and Plant Scientists"
+    ],
+    "cited": true
+  },
+  "animal-science": {
+    "score": 7.0,
+    "human_beta": 0.844,
+    "gpt4_beta": 0.531,
+    "soc_codes": [
+      "19-1011.00"
+    ],
+    "occupation_titles": [
+      "Animal Scientists"
+    ],
+    "cited": true
+  },
+  "environmental-science": {
+    "score": 6.0,
+    "human_beta": 0.726,
+    "gpt4_beta": 0.5,
+    "soc_codes": [
+      "19-2041.00"
+    ],
+    "occupation_titles": [
+      "Environmental Scientists and Specialists, Including Health"
+    ],
+    "cited": true
+  },
+  "sport-management": {
+    "score": 3.5,
+    "human_beta": 0.382,
+    "gpt4_beta": 0.353,
+    "soc_codes": [
+      "11-9072.00"
+    ],
+    "occupation_titles": [
+      "Entertainment and Recreation Managers, Except Gambling"
+    ],
+    "cited": true
+  },
+  "recreation-and-leisure-studies": {
+    "score": 3.5,
+    "human_beta": 0.364,
+    "gpt4_beta": 0.318,
+    "soc_codes": [
+      "29-1125.00"
+    ],
+    "occupation_titles": [
+      "Recreational Therapists"
+    ],
+    "cited": true
+  },
+  "fitness-and-wellness": {
+    "score": 1.0,
+    "human_beta": 0.235,
+    "gpt4_beta": 0.015,
+    "soc_codes": [
+      "39-9031.00"
+    ],
+    "occupation_titles": [
+      "Exercise Trainers and Group Fitness Instructors"
+    ],
+    "cited": true
+  },
+  "family-and-consumer-sciences": {
+    "score": 6.0,
+    "human_beta": 0.65,
+    "gpt4_beta": 0.537,
+    "soc_codes": [
+      "25-1192.00"
+    ],
+    "occupation_titles": [
+      "Family and Consumer Sciences Teachers, Postsecondary"
+    ],
+    "cited": true
+  },
+  "theology-and-divinity": {
+    "score": 3.0,
+    "human_beta": 0.238,
+    "gpt4_beta": 0.333,
+    "soc_codes": [
+      "21-2011.00"
+    ],
+    "occupation_titles": [
+      "Clergy"
+    ],
+    "cited": true
+  },
+  "liberal-arts-and-general-studies": {
+    "score": 5.0,
+    "human_beta": null,
+    "gpt4_beta": null,
+    "soc_codes": [],
+    "occupation_titles": [],
+    "cited": false,
+    "reason": "Too heterogeneous to map to a single representative occupation"
+  },
+  "interdisciplinary-and-general-studies": {
+    "score": 5.0,
+    "human_beta": null,
+    "gpt4_beta": null,
+    "soc_codes": [],
+    "occupation_titles": [],
+    "cited": false,
+    "reason": "Too heterogeneous to map to a single representative occupation"
+  }
+}

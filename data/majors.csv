@@ -1,0 +1,92 @@
+major_id,name,category,degrees_per_year,note
+business-administration-and-management,Business Administration & Management,business,140000,"Broad management generalist work: reports, planning, coordination."
+accounting,Accounting,business,55000,Rules-based bookkeeping and reporting are heavily augmentable.
+finance,Finance,business,50000,Financial modeling and analysis are core AI strengths.
+marketing,Marketing,business,55000,Copywriting and campaign analytics overlap heavily with generative AI.
+human-resources-management,Human Resources Management,business,12000,"Screening, policy drafting, and admin work are increasingly AI-assisted."
+international-business,International Business,business,8000,Cross-border analysis and correspondence are text-heavy.
+supply-chain-and-logistics-mgmt,Supply Chain & Logistics Mgmt.,business,15000,Forecasting and routing optimization are classic AI applications.
+entrepreneurship,Entrepreneurship,business,8000,"Judgment, relationships, and execution matter more than any single task."
+hospitality-and-tourism-mgmt,Hospitality & Tourism Mgmt.,business,15000,In-person service and operations dominate day-to-day work.
+real-estate,Real Estate,business,5000,Valuation and paperwork are automatable; client trust is not.
+actuarial-science,Actuarial Science,business,2000,Statistical risk modeling is squarely in AI's wheelhouse.
+nursing-bsn,Nursing (BSN),health,130000,"Hands-on clinical care, licensure, and physical presence required."
+public-health,Public Health,health,20000,A mix of data analysis and community-facing program work.
+health-administration,Health Administration,health,20000,"Operations, compliance, and reporting are largely digital."
+athletic-training,Athletic Training,health,5000,Physical assessment and treatment require in-person contact.
+nutrition-and-dietetics,Nutrition & Dietetics,health,8000,Counseling relationships limit automation despite data-heavy planning.
+health-sciences-pre-professional,Health Sciences (Pre-Professional),health,25000,Prep track for clinical roles; coursework is knowledge-heavy.
+radiologic-and-diagnostic-tech,Radiologic & Diagnostic Tech.,health,6000,Equipment operation and patient handling are physical.
+speech-language-pathology-pre-grad,Speech-Language Pathology (Pre-Grad),health,5000,Therapy delivery depends on sustained human interaction.
+occupational-therapy-pre-grad,Occupational Therapy (Pre-Grad),health,4000,Hands-on rehabilitation work resists automation.
+computer-science,Computer Science,computing,65000,Code generation is one of AI's strongest current capabilities.
+information-technology,Information Technology,computing,15000,Routine systems administration is increasingly scriptable.
+cybersecurity,Cybersecurity,computing,10000,Pattern detection is AI-assisted; incident judgment stays human.
+data-science,Data Science,computing,8000,"Modeling, cleaning, and analysis pipelines are core AI use cases."
+software-engineering,Software Engineering,computing,6000,AI coding assistants now write large shares of production code.
+game-design-and-development,Game Design & Development,computing,4500,Asset generation is exposed; creative direction less so.
+mechanical-engineering,Mechanical Engineering,engineering,28000,Simulation and drafting are augmented; physical prototyping is not.
+civil-engineering,Civil Engineering,engineering,15000,Site work and regulatory sign-off keep this grounded.
+electrical-engineering,Electrical Engineering,engineering,15000,Circuit design and simulation are increasingly AI-assisted.
+computer-engineering,Computer Engineering,engineering,10000,Sits at the code-heavy end of the engineering spectrum.
+chemical-engineering,Chemical Engineering,engineering,8000,Process design is model-heavy but plant operations are physical.
+biomedical-engineering,Biomedical Engineering,engineering,8000,Device design is digital; testing and regulation are not.
+industrial-and-systems-engineering,Industrial & Systems Engineering,engineering,8000,Optimization and modeling are classic AI applications.
+aerospace-engineering,Aerospace Engineering,engineering,6000,High-stakes physical systems limit full automation.
+environmental-engineering,Environmental Engineering,engineering,4000,Fieldwork balances out modeling-heavy tasks.
+materials-science-and-engineering,Materials Science & Engineering,engineering,3000,Lab-based discovery paired with simulation work.
+architecture,Architecture,engineering,12000,Drafting is automatable; design judgment and client work are not.
+general-engineering,General Engineering,engineering,10000,Broad foundation across the same mixed-exposure pattern.
+biology-general,Biology (General),sciences,90000,Lab technique is physical; literature and data work is exposed.
+biochemistry,Biochemistry,sciences,15000,Heavy overlap with computational biology tools.
+neuroscience,Neuroscience,sciences,10000,Research mixes wet-lab work with computational analysis.
+microbiology,Microbiology,sciences,6000,Culture work is hands-on; downstream analysis is not.
+genetics,Genetics,sciences,3000,Sequencing analysis is highly computational.
+marine-biology,Marine Biology,sciences,4000,Fieldwork-heavy discipline resists remote automation.
+physics,Physics,sciences,7000,Theory and simulation are AI-exposed; experiment less so.
+chemistry,Chemistry,sciences,13000,Synthesis is hands-on; modeling and literature review are not.
+geology-and-earth-sciences,Geology & Earth Sciences,sciences,5000,Fieldwork anchors this otherwise data-rich discipline.
+mathematics-and-statistics,Mathematics & Statistics,sciences,27000,Symbolic and quantitative reasoning is squarely AI territory.
+psychology,Psychology,social,128000,Research and writing are exposed; therapy and assessment are not.
+political-science,Political Science,social,40000,"Research, writing, and analysis dominate coursework and careers."
+sociology,Sociology,social,28000,Survey analysis and academic writing are augmentable.
+economics,Economics,social,35000,Quantitative modeling is a core generative-AI strength.
+anthropology,Anthropology,social,10000,"Fieldwork balances heavily analytical, text-based research."
+international-relations,International Relations,social,8000,"Analysis-heavy, similar exposure profile to political science."
+criminology,Criminology,social,5000,"Mixes data analysis with applied, people-facing work."
+english-language-and-literature,English Language & Literature,humanities,34000,Writing and textual analysis overlap heavily with LLM capability.
+history,History,humanities,25000,Research synthesis and writing are AI-exposed.
+foreign-languages-and-linguistics,Foreign Languages & Linguistics,humanities,15000,Translation is one of the most mature AI use cases.
+philosophy-and-religious-studies,Philosophy & Religious Studies,humanities,12000,Argumentation and writing are exposed; original reasoning still valued.
+liberal-arts-and-general-studies,Liberal Arts & General Studies,humanities,45000,"Broad, mixed coursework defies a single exposure profile."
+communication-studies,Communication Studies,comm,45000,"Writing, research, and content production are heavily augmentable."
+journalism,Journalism,comm,15000,Drafting and research are exposed; verification and access are not.
+public-relations-and-advertising,Public Relations & Advertising,comm,20000,Copy and campaign work overlap directly with generative AI.
+film-and-media-production,Film & Media Production,comm,10000,Editing and post-production are increasingly AI-assisted.
+graphic-and-digital-design,Graphic & Digital Design,arts,30000,Image-generation tools directly overlap with core tasks.
+studio-art-and-fine-arts,Studio Art & Fine Arts,arts,20000,Physical media and originality resist full automation.
+music-performance,Music Performance,arts,15000,Live performance and craft are inherently human.
+theater-and-drama,Theater & Drama,arts,10000,"Live, embodied performance is not automatable."
+film-studies,Film Studies,arts,8000,Criticism and writing are exposed; production craft less so.
+photography,Photography,arts,5000,Generative image tools increasingly compete with the craft.
+fashion-design,Fashion Design,arts,4000,Sketching is augmentable; construction and fit are physical.
+elementary-education,Elementary Education,education,35000,Classroom management and mentorship are inherently in-person.
+secondary-education,Secondary Education,education,20000,Lesson planning is exposed; teaching itself is not.
+special-education,Special Education,education,12000,"Highly individualized, relationship-driven work."
+early-childhood-education,Early Childhood Education,education,15000,Care work with young children is deeply hands-on.
+physical-education,Physical Education,education,7000,Physical instruction and supervision dominate the role.
+criminal-justice,Criminal Justice,public,45000,Field and enforcement work anchor most career paths.
+social-work,Social Work,public,20000,Casework depends on trust and in-person relationships.
+public-administration,Public Administration,public,10000,Policy analysis and reporting are text-heavy and exposed.
+urban-and-regional-planning,Urban & Regional Planning,public,3000,Data modeling paired with public-facing process work.
+fire-science,Fire Science,public,6000,"Emergency response is physical, high-stakes, and in-person."
+homeland-security,Homeland Security,public,7000,"Analysis-heavy coursework, but operationally grounded work."
+agricultural-science,Agricultural Science,ag,15000,Applied field and production work dominates.
+animal-science,Animal Science,ag,12000,Hands-on animal care and production work.
+environmental-science,Environmental Science,ag,15000,Fieldwork paired with heavily quantitative modeling.
+sport-management,Sport Management,ag,25000,Operations and event work are people- and place-based.
+recreation-and-leisure-studies,Recreation & Leisure Studies,ag,15000,Program delivery is in-person by design.
+fitness-and-wellness,Fitness & Wellness,ag,14000,Coaching and instruction require physical presence.
+interdisciplinary-and-general-studies,Interdisciplinary & General Studies,interdisc,54600,Spans everything from data-heavy to hands-on coursework.
+family-and-consumer-sciences,Family & Consumer Sciences,interdisc,12000,"Applied, service-oriented coursework and careers."
+theology-and-divinity,Theology & Divinity,interdisc,8000,Pastoral care and community leadership are relationship-based.

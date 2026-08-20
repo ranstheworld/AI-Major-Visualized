@@ -1,0 +1,17 @@
+{
+  "computing": {
+    "dir": "down",
+    "label": "\u25bc 8.4%",
+    "note": "Computer & Info Sciences undergrad enrollment, 4-yr schools, spring 2026 vs. spring 2025 \u2014 down a 2nd straight term (also \u22129.3% at AB institutions, \u221211.2% at 2-yr); lowest 2nd-fall persistence (85.0%) of any top-10 major."
+  },
+  "health": {
+    "dir": "up",
+    "label": "\u25b2 6\u20137%",
+    "note": "Health Professions undergrad enrollment grew 6.0\u20137.1% this spring \u2014 a 3rd consecutive year of growth, now over 2M undergrads nationwide."
+  },
+  "engineering": {
+    "dir": "up",
+    "label": "\u25b2",
+    "note": "Engineering undergrad enrollment also posted gains in spring 2026, and has the highest 2nd-fall persistence (93.1%) of any top-10 major."
+  }
+}
