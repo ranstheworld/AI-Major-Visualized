@@ -1,0 +1,1376 @@
+{
+ "majors": [
+  {
+   "id": "business-administration-and-management",
+   "name": "Business Administration & Management",
+   "cat": "business",
+   "degrees": 140000,
+   "note": "Broad management generalist work: reports, planning, coordination.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "11-1021.00",
+    "occ": "General and Operations Managers",
+    "human": 0.385,
+    "gpt4": 0.481
+   }
+  },
+  {
+   "id": "accounting",
+   "name": "Accounting",
+   "cat": "business",
+   "degrees": 55000,
+   "note": "Rules-based bookkeeping and reporting are heavily augmentable.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "13-2011.00",
+    "occ": "Accountants and Auditors",
+    "human": 0.52,
+    "gpt4": 0.56
+   }
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "cat": "business",
+   "degrees": 50000,
+   "note": "Financial modeling and analysis are core AI strengths.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "13-2051.00 / 13-2052.00",
+    "occ": "Financial and Investment Analysts + Personal Financial Advisors",
+    "human": 0.586,
+    "gpt4": 0.481
+   }
+  },
+  {
+   "id": "marketing",
+   "name": "Marketing",
+   "cat": "business",
+   "degrees": 55000,
+   "note": "Copywriting and campaign analytics overlap heavily with generative AI.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "13-1161.00 / 11-2021.00",
+    "occ": "Market Research Analysts and Marketing Specialists + Marketing Managers",
+    "human": 0.578,
+    "gpt4": 0.5
+   }
+  },
+  {
+   "id": "human-resources-management",
+   "name": "Human Resources Management",
+   "cat": "business",
+   "degrees": 12000,
+   "note": "Screening, policy drafting, and admin work are increasingly AI-assisted.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "11-3121.00 / 13-1071.00",
+    "occ": "Human Resources Managers + Human Resources Specialists",
+    "human": 0.519,
+    "gpt4": 0.562
+   }
+  },
+  {
+   "id": "international-business",
+   "name": "International Business",
+   "cat": "business",
+   "degrees": 8000,
+   "note": "Cross-border analysis and correspondence are text-heavy.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "13-1111.00",
+    "occ": "Management Analysts",
+    "human": 0.5,
+    "gpt4": 0.405
+   }
+  },
+  {
+   "id": "supply-chain-and-logistics-mgmt",
+   "name": "Supply Chain & Logistics Mgmt.",
+   "cat": "business",
+   "degrees": 15000,
+   "note": "Forecasting and routing optimization are classic AI applications.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "13-1081.00 / 11-3071.04",
+    "occ": "Logisticians + Supply Chain Managers",
+    "human": 0.464,
+    "gpt4": 0.495
+   }
+  },
+  {
+   "id": "entrepreneurship",
+   "name": "Entrepreneurship",
+   "cat": "business",
+   "degrees": 8000,
+   "note": "Judgment, relationships, and execution matter more than any single task.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "11-1011.00",
+    "occ": "Chief Executives",
+    "human": 0.35,
+    "gpt4": 0.46
+   }
+  },
+  {
+   "id": "hospitality-and-tourism-mgmt",
+   "name": "Hospitality & Tourism Mgmt.",
+   "cat": "business",
+   "degrees": 15000,
+   "note": "In-person service and operations dominate day-to-day work.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "11-9081.00 / 11-9051.00",
+    "occ": "Lodging Managers + Food Service Managers",
+    "human": 0.388,
+    "gpt4": 0.437
+   }
+  },
+  {
+   "id": "real-estate",
+   "name": "Real Estate",
+   "cat": "business",
+   "degrees": 5000,
+   "note": "Valuation and paperwork are automatable; client trust is not.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "41-9021.00 / 41-9022.00",
+    "occ": "Real Estate Brokers + Real Estate Sales Agents",
+    "human": 0.416,
+    "gpt4": 0.469
+   }
+  },
+  {
+   "id": "actuarial-science",
+   "name": "Actuarial Science",
+   "cat": "business",
+   "degrees": 2000,
+   "note": "Statistical risk modeling is squarely in AI's wheelhouse.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "15-2011.00",
+    "occ": "Actuaries",
+    "human": 0.537,
+    "gpt4": 0.5
+   }
+  },
+  {
+   "id": "nursing-bsn",
+   "name": "Nursing (BSN)",
+   "cat": "health",
+   "degrees": 130000,
+   "note": "Hands-on clinical care, licensure, and physical presence required.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "29-1141.00",
+    "occ": "Registered Nurses",
+    "human": 0.381,
+    "gpt4": 0.333
+   }
+  },
+  {
+   "id": "public-health",
+   "name": "Public Health",
+   "cat": "health",
+   "degrees": 20000,
+   "note": "A mix of data analysis and community-facing program work.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "21-1091.00 / 19-5011.00",
+    "occ": "Health Education Specialists + Occupational Health and Safety Specialists",
+    "human": 0.429,
+    "gpt4": 0.433
+   }
+  },
+  {
+   "id": "health-administration",
+   "name": "Health Administration",
+   "cat": "health",
+   "degrees": 20000,
+   "note": "Operations, compliance, and reporting are largely digital.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "11-9111.00",
+    "occ": "Medical and Health Services Managers",
+    "human": 0.371,
+    "gpt4": 0.429
+   }
+  },
+  {
+   "id": "athletic-training",
+   "name": "Athletic Training",
+   "cat": "health",
+   "degrees": 5000,
+   "note": "Physical assessment and treatment require in-person contact.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "29-9091.00",
+    "occ": "Athletic Trainers",
+    "human": 0.407,
+    "gpt4": 0.279
+   }
+  },
+  {
+   "id": "nutrition-and-dietetics",
+   "name": "Nutrition & Dietetics",
+   "cat": "health",
+   "degrees": 8000,
+   "note": "Counseling relationships limit automation despite data-heavy planning.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "29-1031.00",
+    "occ": "Dietitians and Nutritionists",
+    "human": 0.463,
+    "gpt4": 0.549
+   }
+  },
+  {
+   "id": "health-sciences-pre-professional",
+   "name": "Health Sciences (Pre-Professional)",
+   "cat": "health",
+   "degrees": 25000,
+   "note": "Prep track for clinical roles; coursework is knowledge-heavy.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "21-1091.00",
+    "occ": "Health Education Specialists",
+    "human": 0.5,
+    "gpt4": 0.532
+   }
+  },
+  {
+   "id": "radiologic-and-diagnostic-tech",
+   "name": "Radiologic & Diagnostic Tech.",
+   "cat": "health",
+   "degrees": 6000,
+   "note": "Equipment operation and patient handling are physical.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "29-2034.00",
+    "occ": "Radiologic Technologists and Technicians",
+    "human": 0.281,
+    "gpt4": 0.377
+   }
+  },
+  {
+   "id": "speech-language-pathology-pre-grad",
+   "name": "Speech-Language Pathology (Pre-Grad)",
+   "cat": "health",
+   "degrees": 5000,
+   "note": "Therapy delivery depends on sustained human interaction.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "29-1127.00",
+    "occ": "Speech-Language Pathologists",
+    "human": 0.39,
+    "gpt4": 0.451
+   }
+  },
+  {
+   "id": "occupational-therapy-pre-grad",
+   "name": "Occupational Therapy (Pre-Grad)",
+   "cat": "health",
+   "degrees": 4000,
+   "note": "Hands-on rehabilitation work resists automation.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "29-1122.00",
+    "occ": "Occupational Therapists",
+    "human": 0.394,
+    "gpt4": 0.303
+   }
+  },
+  {
+   "id": "computer-science",
+   "name": "Computer Science",
+   "cat": "computing",
+   "degrees": 65000,
+   "note": "Code generation is one of AI's strongest current capabilities.",
+   "exposure": 6.5,
+   "cited": true,
+   "citation": {
+    "soc": "15-1252.00",
+    "occ": "Software Developers",
+    "human": 0.447,
+    "gpt4": 0.868
+   }
+  },
+  {
+   "id": "information-technology",
+   "name": "Information Technology",
+   "cat": "computing",
+   "degrees": 15000,
+   "note": "Routine systems administration is increasingly scriptable.",
+   "exposure": 6.0,
+   "cited": true,
+   "citation": {
+    "soc": "15-1244.00 / 15-1211.00",
+    "occ": "Network and Computer Systems Administrators + Computer Systems Analysts",
+    "human": 0.492,
+    "gpt4": 0.74
+   }
+  },
+  {
+   "id": "cybersecurity",
+   "name": "Cybersecurity",
+   "cat": "computing",
+   "degrees": 10000,
+   "note": "Pattern detection is AI-assisted; incident judgment stays human.",
+   "exposure": 6.0,
+   "cited": true,
+   "citation": {
+    "soc": "15-1212.00",
+    "occ": "Information Security Analysts",
+    "human": 0.543,
+    "gpt4": 0.652
+   }
+  },
+  {
+   "id": "data-science",
+   "name": "Data Science",
+   "cat": "computing",
+   "degrees": 8000,
+   "note": "Modeling, cleaning, and analysis pipelines are core AI use cases.",
+   "exposure": 6.5,
+   "cited": true,
+   "citation": {
+    "soc": "15-2051.00",
+    "occ": "Data Scientists",
+    "human": 0.594,
+    "gpt4": 0.75
+   }
+  },
+  {
+   "id": "software-engineering",
+   "name": "Software Engineering",
+   "cat": "computing",
+   "degrees": 6000,
+   "note": "AI coding assistants now write large shares of production code.",
+   "exposure": 7.0,
+   "cited": true,
+   "citation": {
+    "soc": "15-1252.00 / 15-1253.00",
+    "occ": "Software Developers + Software Quality Assurance Analysts and Testers",
+    "human": 0.531,
+    "gpt4": 0.873
+   }
+  },
+  {
+   "id": "game-design-and-development",
+   "name": "Game Design & Development",
+   "cat": "computing",
+   "degrees": 4500,
+   "note": "Asset generation is exposed; creative direction less so.",
+   "exposure": 6.0,
+   "cited": true,
+   "citation": {
+    "soc": "15-1255.01",
+    "occ": "Video Game Designers",
+    "human": 0.583,
+    "gpt4": 0.667
+   }
+  },
+  {
+   "id": "mechanical-engineering",
+   "name": "Mechanical Engineering",
+   "cat": "engineering",
+   "degrees": 28000,
+   "note": "Simulation and drafting are augmented; physical prototyping is not.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "17-2141.00",
+    "occ": "Mechanical Engineers",
+    "human": 0.372,
+    "gpt4": 0.453
+   }
+  },
+  {
+   "id": "civil-engineering",
+   "name": "Civil Engineering",
+   "cat": "engineering",
+   "degrees": 15000,
+   "note": "Site work and regulatory sign-off keep this grounded.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "17-2051.00",
+    "occ": "Civil Engineers",
+    "human": 0.375,
+    "gpt4": 0.446
+   }
+  },
+  {
+   "id": "electrical-engineering",
+   "name": "Electrical Engineering",
+   "cat": "engineering",
+   "degrees": 15000,
+   "note": "Circuit design and simulation are increasingly AI-assisted.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "17-2071.00",
+    "occ": "Electrical Engineers",
+    "human": 0.406,
+    "gpt4": 0.562
+   }
+  },
+  {
+   "id": "computer-engineering",
+   "name": "Computer Engineering",
+   "cat": "engineering",
+   "degrees": 10000,
+   "note": "Sits at the code-heavy end of the engineering spectrum.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "17-2061.00",
+    "occ": "Computer Hardware Engineers",
+    "human": 0.318,
+    "gpt4": 0.727
+   }
+  },
+  {
+   "id": "chemical-engineering",
+   "name": "Chemical Engineering",
+   "cat": "engineering",
+   "degrees": 8000,
+   "note": "Process design is model-heavy but plant operations are physical.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "17-2041.00",
+    "occ": "Chemical Engineers",
+    "human": 0.346,
+    "gpt4": 0.462
+   }
+  },
+  {
+   "id": "biomedical-engineering",
+   "name": "Biomedical Engineering",
+   "cat": "engineering",
+   "degrees": 8000,
+   "note": "Device design is digital; testing and regulation are not.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "17-2031.00",
+    "occ": "Bioengineers and Biomedical Engineers",
+    "human": 0.538,
+    "gpt4": 0.59
+   }
+  },
+  {
+   "id": "industrial-and-systems-engineering",
+   "name": "Industrial & Systems Engineering",
+   "cat": "engineering",
+   "degrees": 8000,
+   "note": "Optimization and modeling are classic AI applications.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "17-2112.00",
+    "occ": "Industrial Engineers",
+    "human": 0.605,
+    "gpt4": 0.526
+   }
+  },
+  {
+   "id": "aerospace-engineering",
+   "name": "Aerospace Engineering",
+   "cat": "engineering",
+   "degrees": 6000,
+   "note": "High-stakes physical systems limit full automation.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "17-2011.00",
+    "occ": "Aerospace Engineers",
+    "human": 0.518,
+    "gpt4": 0.571
+   }
+  },
+  {
+   "id": "environmental-engineering",
+   "name": "Environmental Engineering",
+   "cat": "engineering",
+   "degrees": 4000,
+   "note": "Fieldwork balances out modeling-heavy tasks.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "17-2081.00",
+    "occ": "Environmental Engineers",
+    "human": 0.5,
+    "gpt4": 0.556
+   }
+  },
+  {
+   "id": "materials-science-and-engineering",
+   "name": "Materials Science & Engineering",
+   "cat": "engineering",
+   "degrees": 3000,
+   "note": "Lab-based discovery paired with simulation work.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "17-2131.00",
+    "occ": "Materials Engineers",
+    "human": 0.317,
+    "gpt4": 0.488
+   }
+  },
+  {
+   "id": "architecture",
+   "name": "Architecture",
+   "cat": "engineering",
+   "degrees": 12000,
+   "note": "Drafting is automatable; design judgment and client work are not.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "17-1011.00",
+    "occ": "Architects, Except Landscape and Naval",
+    "human": 0.43,
+    "gpt4": 0.488
+   }
+  },
+  {
+   "id": "general-engineering",
+   "name": "General Engineering",
+   "cat": "engineering",
+   "degrees": 10000,
+   "note": "Broad foundation across the same mixed-exposure pattern.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "17-2141.00 / 17-2051.00 / 17-2112.00",
+    "occ": "Mechanical Engineers + Civil Engineers + Industrial Engineers",
+    "human": 0.451,
+    "gpt4": 0.475
+   }
+  },
+  {
+   "id": "biology-general",
+   "name": "Biology (General)",
+   "cat": "sciences",
+   "degrees": 90000,
+   "note": "Lab technique is physical; literature and data work is exposed.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "19-1029.04",
+    "occ": "Biologists",
+    "human": 0.382,
+    "gpt4": 0.485
+   }
+  },
+  {
+   "id": "biochemistry",
+   "name": "Biochemistry",
+   "cat": "sciences",
+   "degrees": 15000,
+   "note": "Heavy overlap with computational biology tools.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "19-1021.00",
+    "occ": "Biochemists and Biophysicists",
+    "human": 0.443,
+    "gpt4": 0.455
+   }
+  },
+  {
+   "id": "neuroscience",
+   "name": "Neuroscience",
+   "cat": "sciences",
+   "degrees": 10000,
+   "note": "Research mixes wet-lab work with computational analysis.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "19-1042.00",
+    "occ": "Medical Scientists, Except Epidemiologists",
+    "human": 0.568,
+    "gpt4": 0.523
+   }
+  },
+  {
+   "id": "microbiology",
+   "name": "Microbiology",
+   "cat": "sciences",
+   "degrees": 6000,
+   "note": "Culture work is hands-on; downstream analysis is not.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "19-1022.00",
+    "occ": "Microbiologists",
+    "human": 0.312,
+    "gpt4": 0.396
+   }
+  },
+  {
+   "id": "genetics",
+   "name": "Genetics",
+   "cat": "sciences",
+   "degrees": 3000,
+   "note": "Sequencing analysis is highly computational.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-1029.03",
+    "occ": "Geneticists",
+    "human": 0.477,
+    "gpt4": 0.512
+   }
+  },
+  {
+   "id": "marine-biology",
+   "name": "Marine Biology",
+   "cat": "sciences",
+   "degrees": 4000,
+   "note": "Fieldwork-heavy discipline resists remote automation.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-1023.00",
+    "occ": "Zoologists and Wildlife Biologists",
+    "human": 0.524,
+    "gpt4": 0.452
+   }
+  },
+  {
+   "id": "physics",
+   "name": "Physics",
+   "cat": "sciences",
+   "degrees": 7000,
+   "note": "Theory and simulation are AI-exposed; experiment less so.",
+   "exposure": 7.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-2012.00",
+    "occ": "Physicists",
+    "human": 0.636,
+    "gpt4": 0.75
+   }
+  },
+  {
+   "id": "chemistry",
+   "name": "Chemistry",
+   "cat": "sciences",
+   "degrees": 13000,
+   "note": "Synthesis is hands-on; modeling and literature review are not.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-2031.00",
+    "occ": "Chemists",
+    "human": 0.4,
+    "gpt4": 0.38
+   }
+  },
+  {
+   "id": "geology-and-earth-sciences",
+   "name": "Geology & Earth Sciences",
+   "cat": "sciences",
+   "degrees": 5000,
+   "note": "Fieldwork anchors this otherwise data-rich discipline.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "19-2042.00",
+    "occ": "Geoscientists, Except Hydrologists and Geographers",
+    "human": 0.478,
+    "gpt4": 0.467
+   }
+  },
+  {
+   "id": "mathematics-and-statistics",
+   "name": "Mathematics & Statistics",
+   "cat": "sciences",
+   "degrees": 27000,
+   "note": "Symbolic and quantitative reasoning is squarely AI territory.",
+   "exposure": 8.0,
+   "cited": true,
+   "citation": {
+    "soc": "15-2021.00 / 15-2041.00",
+    "occ": "Mathematicians + Statisticians",
+    "human": 0.701,
+    "gpt4": 0.895
+   }
+  },
+  {
+   "id": "psychology",
+   "name": "Psychology",
+   "cat": "social",
+   "degrees": 128000,
+   "note": "Research and writing are exposed; therapy and assessment are not.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "19-3033.00",
+    "occ": "Clinical and Counseling Psychologists",
+    "human": 0.509,
+    "gpt4": 0.37
+   }
+  },
+  {
+   "id": "political-science",
+   "name": "Political Science",
+   "cat": "social",
+   "degrees": 40000,
+   "note": "Research, writing, and analysis dominate coursework and careers.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-3094.00",
+    "occ": "Political Scientists",
+    "human": 0.542,
+    "gpt4": 0.479
+   }
+  },
+  {
+   "id": "sociology",
+   "name": "Sociology",
+   "cat": "social",
+   "degrees": 28000,
+   "note": "Survey analysis and academic writing are augmentable.",
+   "exposure": 6.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-3041.00",
+    "occ": "Sociologists",
+    "human": 0.615,
+    "gpt4": 0.538
+   }
+  },
+  {
+   "id": "economics",
+   "name": "Economics",
+   "cat": "social",
+   "degrees": 35000,
+   "note": "Quantitative modeling is a core generative-AI strength.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-3011.00",
+    "occ": "Economists",
+    "human": 0.458,
+    "gpt4": 0.5
+   }
+  },
+  {
+   "id": "anthropology",
+   "name": "Anthropology",
+   "cat": "social",
+   "degrees": 10000,
+   "note": "Fieldwork balances heavily analytical, text-based research.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-3091.00",
+    "occ": "Anthropologists and Archeologists",
+    "human": 0.517,
+    "gpt4": 0.44
+   }
+  },
+  {
+   "id": "international-relations",
+   "name": "International Relations",
+   "cat": "social",
+   "degrees": 8000,
+   "note": "Analysis-heavy, similar exposure profile to political science.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-3094.00",
+    "occ": "Political Scientists",
+    "human": 0.542,
+    "gpt4": 0.479
+   }
+  },
+  {
+   "id": "criminology",
+   "name": "Criminology",
+   "cat": "social",
+   "degrees": 5000,
+   "note": "Mixes data analysis with applied, people-facing work.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "21-1092.00",
+    "occ": "Probation Officers and Correctional Treatment Specialists",
+    "human": 0.447,
+    "gpt4": 0.395
+   }
+  },
+  {
+   "id": "english-language-and-literature",
+   "name": "English Language & Literature",
+   "cat": "humanities",
+   "degrees": 34000,
+   "note": "Writing and textual analysis overlap heavily with LLM capability.",
+   "exposure": 7.5,
+   "cited": true,
+   "citation": {
+    "soc": "27-3043.00 / 27-3041.00",
+    "occ": "Writers and Authors + Editors",
+    "human": 0.727,
+    "gpt4": 0.756
+   }
+  },
+  {
+   "id": "history",
+   "name": "History",
+   "cat": "humanities",
+   "degrees": 25000,
+   "note": "Research synthesis and writing are AI-exposed.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-3093.00",
+    "occ": "Historians",
+    "human": 0.5,
+    "gpt4": 0.474
+   }
+  },
+  {
+   "id": "foreign-languages-and-linguistics",
+   "name": "Foreign Languages & Linguistics",
+   "cat": "humanities",
+   "degrees": 15000,
+   "note": "Translation is one of the most mature AI use cases.",
+   "exposure": 8.5,
+   "cited": true,
+   "citation": {
+    "soc": "27-3091.00",
+    "occ": "Interpreters and Translators",
+    "human": 0.84,
+    "gpt4": 0.88
+   }
+  },
+  {
+   "id": "philosophy-and-religious-studies",
+   "name": "Philosophy & Religious Studies",
+   "cat": "humanities",
+   "degrees": 12000,
+   "note": "Argumentation and writing are exposed; original reasoning still valued.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "25-1126.00",
+    "occ": "Philosophy and Religion Teachers, Postsecondary",
+    "human": 0.591,
+    "gpt4": 0.511
+   }
+  },
+  {
+   "id": "liberal-arts-and-general-studies",
+   "name": "Liberal Arts & General Studies",
+   "cat": "humanities",
+   "degrees": 45000,
+   "note": "Broad, mixed coursework defies a single exposure profile.",
+   "exposure": 5.0,
+   "cited": false,
+   "citation": null
+  },
+  {
+   "id": "communication-studies",
+   "name": "Communication Studies",
+   "cat": "comm",
+   "degrees": 45000,
+   "note": "Writing, research, and content production are heavily augmentable.",
+   "exposure": 7.0,
+   "cited": true,
+   "citation": {
+    "soc": "27-3031.00",
+    "occ": "Public Relations Specialists",
+    "human": 0.788,
+    "gpt4": 0.591
+   }
+  },
+  {
+   "id": "journalism",
+   "name": "Journalism",
+   "cat": "comm",
+   "degrees": 15000,
+   "note": "Drafting and research are exposed; verification and access are not.",
+   "exposure": 6.5,
+   "cited": true,
+   "citation": {
+    "soc": "27-3023.00",
+    "occ": "News Analysts, Reporters, and Journalists",
+    "human": 0.633,
+    "gpt4": 0.65
+   }
+  },
+  {
+   "id": "public-relations-and-advertising",
+   "name": "Public Relations & Advertising",
+   "cat": "comm",
+   "degrees": 20000,
+   "note": "Copy and campaign work overlap directly with generative AI.",
+   "exposure": 6.0,
+   "cited": true,
+   "citation": {
+    "soc": "27-3031.00 / 11-2011.00",
+    "occ": "Public Relations Specialists + Advertising and Promotions Managers",
+    "human": 0.667,
+    "gpt4": 0.534
+   }
+  },
+  {
+   "id": "film-and-media-production",
+   "name": "Film & Media Production",
+   "cat": "comm",
+   "degrees": 10000,
+   "note": "Editing and post-production are increasingly AI-assisted.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "27-2012.00 / 27-4032.00",
+    "occ": "Producers and Directors + Film and Video Editors",
+    "human": 0.475,
+    "gpt4": 0.498
+   }
+  },
+  {
+   "id": "graphic-and-digital-design",
+   "name": "Graphic & Digital Design",
+   "cat": "arts",
+   "degrees": 30000,
+   "note": "Image-generation tools directly overlap with core tasks.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "27-1024.00",
+    "occ": "Graphic Designers",
+    "human": 0.411,
+    "gpt4": 0.5
+   }
+  },
+  {
+   "id": "studio-art-and-fine-arts",
+   "name": "Studio Art & Fine Arts",
+   "cat": "arts",
+   "degrees": 20000,
+   "note": "Physical media and originality resist full automation.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "27-1013.00",
+    "occ": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+    "human": 0.312,
+    "gpt4": 0.425
+   }
+  },
+  {
+   "id": "music-performance",
+   "name": "Music Performance",
+   "cat": "arts",
+   "degrees": 15000,
+   "note": "Live performance and craft are inherently human.",
+   "exposure": 2.5,
+   "cited": true,
+   "citation": {
+    "soc": "27-2042.00",
+    "occ": "Musicians and Singers",
+    "human": 0.133,
+    "gpt4": 0.408
+   }
+  },
+  {
+   "id": "theater-and-drama",
+   "name": "Theater & Drama",
+   "cat": "arts",
+   "degrees": 10000,
+   "note": "Live, embodied performance is not automatable.",
+   "exposure": 1.5,
+   "cited": true,
+   "citation": {
+    "soc": "27-2011.00",
+    "occ": "Actors",
+    "human": 0.156,
+    "gpt4": 0.188
+   }
+  },
+  {
+   "id": "film-studies",
+   "name": "Film Studies",
+   "cat": "arts",
+   "degrees": 8000,
+   "note": "Criticism and writing are exposed; production craft less so.",
+   "exposure": 5.0,
+   "cited": true,
+   "citation": {
+    "soc": "27-4032.00",
+    "occ": "Film and Video Editors",
+    "human": 0.472,
+    "gpt4": 0.528
+   }
+  },
+  {
+   "id": "photography",
+   "name": "Photography",
+   "cat": "arts",
+   "degrees": 5000,
+   "note": "Generative image tools increasingly compete with the craft.",
+   "exposure": 3.0,
+   "cited": true,
+   "citation": {
+    "soc": "27-4021.00",
+    "occ": "Photographers",
+    "human": 0.219,
+    "gpt4": 0.385
+   }
+  },
+  {
+   "id": "fashion-design",
+   "name": "Fashion Design",
+   "cat": "arts",
+   "degrees": 4000,
+   "note": "Sketching is augmentable; construction and fit are physical.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "27-1022.00",
+    "occ": "Fashion Designers",
+    "human": 0.375,
+    "gpt4": 0.391
+   }
+  },
+  {
+   "id": "elementary-education",
+   "name": "Elementary Education",
+   "cat": "education",
+   "degrees": 35000,
+   "note": "Classroom management and mentorship are inherently in-person.",
+   "exposure": 3.0,
+   "cited": true,
+   "citation": {
+    "soc": "25-2021.00",
+    "occ": "Elementary School Teachers, Except Special Education",
+    "human": 0.311,
+    "gpt4": 0.311
+   }
+  },
+  {
+   "id": "secondary-education",
+   "name": "Secondary Education",
+   "cat": "education",
+   "degrees": 20000,
+   "note": "Lesson planning is exposed; teaching itself is not.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "25-2031.00",
+    "occ": "Secondary School Teachers, Except Special and Career/Technical Education",
+    "human": 0.341,
+    "gpt4": 0.333
+   }
+  },
+  {
+   "id": "special-education",
+   "name": "Special Education",
+   "cat": "education",
+   "degrees": 12000,
+   "note": "Highly individualized, relationship-driven work.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "25-2056.00",
+    "occ": "Special Education Teachers, Elementary School",
+    "human": 0.35,
+    "gpt4": 0.317
+   }
+  },
+  {
+   "id": "early-childhood-education",
+   "name": "Early Childhood Education",
+   "cat": "education",
+   "degrees": 15000,
+   "note": "Care work with young children is deeply hands-on.",
+   "exposure": 2.5,
+   "cited": true,
+   "citation": {
+    "soc": "25-2011.00 / 25-2012.00",
+    "occ": "Preschool Teachers, Except Special Education + Kindergarten Teachers, Except Special Education",
+    "human": 0.303,
+    "gpt4": 0.23
+   }
+  },
+  {
+   "id": "physical-education",
+   "name": "Physical Education",
+   "cat": "education",
+   "degrees": 7000,
+   "note": "Physical instruction and supervision dominate the role.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "25-2059.01",
+    "occ": "Adapted Physical Education Specialists",
+    "human": 0.25,
+    "gpt4": 0.475
+   }
+  },
+  {
+   "id": "criminal-justice",
+   "name": "Criminal Justice",
+   "cat": "public",
+   "degrees": 45000,
+   "note": "Field and enforcement work anchor most career paths.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "33-3051.00 / 21-1092.00",
+    "occ": "Police and Sheriff's Patrol Officers + Probation Officers and Correctional Treatment Specialists",
+    "human": 0.34,
+    "gpt4": 0.322
+   }
+  },
+  {
+   "id": "social-work",
+   "name": "Social Work",
+   "cat": "public",
+   "degrees": 20000,
+   "note": "Casework depends on trust and in-person relationships.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "21-1022.00 / 21-1021.00",
+    "occ": "Healthcare Social Workers + Child, Family, and School Social Workers",
+    "human": 0.361,
+    "gpt4": 0.293
+   }
+  },
+  {
+   "id": "public-administration",
+   "name": "Public Administration",
+   "cat": "public",
+   "degrees": 10000,
+   "note": "Policy analysis and reporting are text-heavy and exposed.",
+   "exposure": 4.0,
+   "cited": true,
+   "citation": {
+    "soc": "11-9151.00",
+    "occ": "Social and Community Service Managers",
+    "human": 0.446,
+    "gpt4": 0.393
+   }
+  },
+  {
+   "id": "urban-and-regional-planning",
+   "name": "Urban & Regional Planning",
+   "cat": "public",
+   "degrees": 3000,
+   "note": "Data modeling paired with public-facing process work.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "19-3051.00",
+    "occ": "Urban and Regional Planners",
+    "human": 0.58,
+    "gpt4": 0.477
+   }
+  },
+  {
+   "id": "fire-science",
+   "name": "Fire Science",
+   "cat": "public",
+   "degrees": 6000,
+   "note": "Emergency response is physical, high-stakes, and in-person.",
+   "exposure": 1.0,
+   "cited": true,
+   "citation": {
+    "soc": "33-2011.00",
+    "occ": "Firefighters",
+    "human": 0.088,
+    "gpt4": 0.14
+   }
+  },
+  {
+   "id": "homeland-security",
+   "name": "Homeland Security",
+   "cat": "public",
+   "degrees": 7000,
+   "note": "Analysis-heavy coursework, but operationally grounded work.",
+   "exposure": 4.5,
+   "cited": true,
+   "citation": {
+    "soc": "33-3021.06",
+    "occ": "Intelligence Analysts",
+    "human": 0.397,
+    "gpt4": 0.529
+   }
+  },
+  {
+   "id": "agricultural-science",
+   "name": "Agricultural Science",
+   "cat": "ag",
+   "degrees": 15000,
+   "note": "Applied field and production work dominates.",
+   "exposure": 5.5,
+   "cited": true,
+   "citation": {
+    "soc": "19-1013.00",
+    "occ": "Soil and Plant Scientists",
+    "human": 0.63,
+    "gpt4": 0.489
+   }
+  },
+  {
+   "id": "animal-science",
+   "name": "Animal Science",
+   "cat": "ag",
+   "degrees": 12000,
+   "note": "Hands-on animal care and production work.",
+   "exposure": 7.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-1011.00",
+    "occ": "Animal Scientists",
+    "human": 0.844,
+    "gpt4": 0.531
+   }
+  },
+  {
+   "id": "environmental-science",
+   "name": "Environmental Science",
+   "cat": "ag",
+   "degrees": 15000,
+   "note": "Fieldwork paired with heavily quantitative modeling.",
+   "exposure": 6.0,
+   "cited": true,
+   "citation": {
+    "soc": "19-2041.00",
+    "occ": "Environmental Scientists and Specialists, Including Health",
+    "human": 0.726,
+    "gpt4": 0.5
+   }
+  },
+  {
+   "id": "sport-management",
+   "name": "Sport Management",
+   "cat": "ag",
+   "degrees": 25000,
+   "note": "Operations and event work are people- and place-based.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "11-9072.00",
+    "occ": "Entertainment and Recreation Managers, Except Gambling",
+    "human": 0.382,
+    "gpt4": 0.353
+   }
+  },
+  {
+   "id": "recreation-and-leisure-studies",
+   "name": "Recreation & Leisure Studies",
+   "cat": "ag",
+   "degrees": 15000,
+   "note": "Program delivery is in-person by design.",
+   "exposure": 3.5,
+   "cited": true,
+   "citation": {
+    "soc": "29-1125.00",
+    "occ": "Recreational Therapists",
+    "human": 0.364,
+    "gpt4": 0.318
+   }
+  },
+  {
+   "id": "fitness-and-wellness",
+   "name": "Fitness & Wellness",
+   "cat": "ag",
+   "degrees": 14000,
+   "note": "Coaching and instruction require physical presence.",
+   "exposure": 1.0,
+   "cited": true,
+   "citation": {
+    "soc": "39-9031.00",
+    "occ": "Exercise Trainers and Group Fitness Instructors",
+    "human": 0.235,
+    "gpt4": 0.015
+   }
+  },
+  {
+   "id": "interdisciplinary-and-general-studies",
+   "name": "Interdisciplinary & General Studies",
+   "cat": "interdisc",
+   "degrees": 54600,
+   "note": "Spans everything from data-heavy to hands-on coursework.",
+   "exposure": 5.0,
+   "cited": false,
+   "citation": null
+  },
+  {
+   "id": "family-and-consumer-sciences",
+   "name": "Family & Consumer Sciences",
+   "cat": "interdisc",
+   "degrees": 12000,
+   "note": "Applied, service-oriented coursework and careers.",
+   "exposure": 6.0,
+   "cited": true,
+   "citation": {
+    "soc": "25-1192.00",
+    "occ": "Family and Consumer Sciences Teachers, Postsecondary",
+    "human": 0.65,
+    "gpt4": 0.537
+   }
+  },
+  {
+   "id": "theology-and-divinity",
+   "name": "Theology & Divinity",
+   "cat": "interdisc",
+   "degrees": 8000,
+   "note": "Pastoral care and community leadership are relationship-based.",
+   "exposure": 3.0,
+   "cited": true,
+   "citation": {
+    "soc": "21-2011.00",
+    "occ": "Clergy",
+    "human": 0.238,
+    "gpt4": 0.333
+   }
+  }
+ ],
+ "momentum": {
+  "computing": {
+   "dir": "down",
+   "label": "\u25bc 8.4%",
+   "note": "Computer & Info Sciences undergrad enrollment, 4-yr schools, spring 2026 vs. spring 2025 \u2014 down a 2nd straight term (also \u22129.3% at AB institutions, \u221211.2% at 2-yr); lowest 2nd-fall persistence (85.0%) of any top-10 major."
+  },
+  "health": {
+   "dir": "up",
+   "label": "\u25b2 6\u20137%",
+   "note": "Health Professions undergrad enrollment grew 6.0\u20137.1% this spring \u2014 a 3rd consecutive year of growth, now over 2M undergrads nationwide."
+  },
+  "engineering": {
+   "dir": "up",
+   "label": "\u25b2",
+   "note": "Engineering undergrad enrollment also posted gains in spring 2026, and has the highest 2nd-fall persistence (93.1%) of any top-10 major."
+  }
+ }
+}
