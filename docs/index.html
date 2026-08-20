@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Exposure of the College Major Landscape</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <div class="eyebrow">College Majors · AI Exposure</div>
+      <h1>Which college majors sit closest to what AI can already do?</h1>
+      <div class="sub">Every rectangle is a bachelor's degree field. Size = degrees conferred per year — the
+        latest NCES-finalized figures (2021–22). Color = an estimated exposure score, 0–10, for how much of the
+        field's typical day-to-day task content overlaps with current generative AI capability. Category headers
+        carry a ▲/▼ where fresh 2025–26 enrollment data points to where sizes are actually heading next.</div>
+    </div>
+    <div class="credit">Format inspired by Andrej Karpathy's<br>
+      <a href="https://github.com/karpathy/jobs" target="_blank" rel="noopener">AI exposure treemap of BLS occupations</a><br>
+      — applied here to U.S. college majors.</div>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><div class="n" id="statMajors">–</div><div class="l">Majors shown</div></div>
+    <div class="stat"><div class="n" id="statDegrees">–</div><div class="l">Degrees / year</div></div>
+    <div class="stat accent"><div class="n" id="statAvg">–</div><div class="l">Avg. exposure (wtd.)</div></div>
+    <div class="stat"><div class="n" id="statHigh">–</div><div class="l">Most exposed, shown</div></div>
+    <div class="stat"><div class="n" id="statLow">–</div><div class="l">Least exposed, shown</div></div>
+  </div>
+
+  <div class="data-note">
+    <b>Why the sizes still say 2021–22:</b> NCES's detailed major-by-major completions table (Digest Table 322.10)
+    has a structural ~4-year publication lag — 2021–22 is still the newest finalized breakdown as of August 2026;
+    2023–24 exists only at the provisional, un-detailed level. But the freshest real signal — <b>Spring 2026
+    enrollment</b> — shows a sharp inflection already underway: Computer &amp; Information Sciences enrollment
+    fell 8.4% at four-year schools (9.3–11.2% elsewhere) for a second straight term, its lowest persistence rate
+    of any top-10 major, while Health Professions grew 6–7% for a third straight year and Engineering also rose.
+    That's shown as ▲/▼ badges on the category headers below — a leading indicator of where the rectangles are
+    headed, not yet baked into their size. <span class="src">Sources: NCES Digest 2023, Table 322.10 · National
+    Student Clearinghouse Research Center, Final Fall/Spring Enrollment Trends &amp; 2026 Persistence and
+    Retention Report.</span>
+  </div>
+
+  <div class="data-note">
+    <b>Exposure scoring — now a real crosswalk.</b> Every major below (bar two) is mapped to its actual closest
+    occupation(s) in Eloundou, Manning, Mishkin &amp; Rock's "GPTs are GPTs" dataset (OpenAI/UPenn, 2023) — the
+    real published exposure scores, not my own estimates. Score = the average of their human-rated and GPT-4-rated
+    "β" measure (share of the occupation's tasks meaningfully exposed), scaled to 0–10. Majors marked
+    <span class="prov-cited">● cited</span> — <b>89 of 91</b> — link straight to the occupation(s) their graduates
+    actually go on to do; hover any rectangle for the exact SOC code and both scores. Only <i>Liberal Arts &amp;
+    General Studies</i> and <i>Interdisciplinary &amp; General Studies</i> stay as rubric estimates — genuinely too
+    heterogeneous for one occupation to represent. A few real numbers reshuffled the picture: <b>Animal
+    Science jumps to 7.0</b> (its closest match, Animal Scientists, was human-rated surprisingly exposed — mostly
+    research and reporting work, not just hands-on husbandry), while <b>Fire Science and Fitness &amp; Wellness
+    drop to 1.0</b>, among the lowest scores on the board. I also layered in real <b>Anthropic Economic Index</b>
+    figures (actual Claude usage, not hypothetical ratings): as of Feb 2026, <b>49%</b> of U.S. jobs have had
+    Claude used for at least a quarter of their tasks (up from 36% a year earlier), and augmented use (52%) still
+    edges out fully automated use (45%). One caveat worth carrying into Computer Science's score below: Anthropic's
+    own data shows software developers are <i>less</i> affected than naive task-coverage implies, once weighted by
+    how hard the delegated tasks actually are. <span class="src">Sources: Eloundou, Manning, Mishkin &amp; Rock,
+    "GPTs are GPTs" (arXiv:2303.10130 / Science 2024), occ_level.csv, github.com/openai/GPTs-are-GPTs · Anthropic
+    Economic Index reports, Jan &amp; Mar 2026.</span>
+  </div>
+
+  <div class="controls">
+    <div class="search"><input type="text" id="searchInput" placeholder="Search a major…"></div>
+    <select class="catfilter" id="catFilter"></select>
+    <div class="range-group">Exposure ≥ <input type="range" id="minExp" min="0" max="10" step="0.5" value="0"><span class="val" id="minExpVal">0</span></div>
+    <div class="range-group">≤ <input type="range" id="maxExp" min="0" max="10" step="0.5" value="10"><span class="val" id="maxExpVal">10</span></div>
+    <div class="seg" id="colorSeg">
+      <button data-mode="exposure" class="active">Color: Exposure</button>
+      <button data-mode="category">Color: Field</button>
+    </div>
+    <button class="reset" id="resetBtn">Reset filters</button>
+  </div>
+
+  <div class="legend-row">
+    <div class="exp-legend" id="expLegend"><span>Low exposure</span><div class="exp-gradient"></div><span>High exposure</span>
+      <span style="margin-left:14px;display:inline-flex;align-items:center;gap:5px;"><span style="width:7px;height:7px;border-radius:50%;background:#3C6E4A;display:inline-block;"></span> = cited vs. Eloundou et al. real occupation data — hover for detail</span>
+    </div>
+    <div class="cat-legend" id="catLegend" style="display:none;"></div>
+  </div>
+
+  <div class="chart-shell"><svg id="chart"></svg></div>
+
+  <div id="detail"><button class="close-x" id="closeDetail">✕</button></div>
+
+  <footer>
+    <b>Methodology.</b> Degree counts: NCES Digest of Education Statistics / IPEDS, newest finalized detailed
+    breakdown (2021–22, ~2.0M bachelor's degrees), broad categories split into majors using typical sub-field
+    proportions. Category ▲/▼ badges: real Spring 2026 enrollment momentum from the National Student
+    Clearinghouse — a separate, faster-moving signal layered on top, not baked into the sizes. Exposure scores:
+    <span class="prov-cited">● cited</span> majors (89 of 91) are mapped to their actual closest occupation(s) —
+    typically the field graduates most commonly enter — and scored using Eloundou, Manning, Mishkin &amp; Rock's
+    "GPTs are GPTs" (arXiv:2303.10130), the real published occupation-level dataset, averaging their human-rated
+    and GPT-4-rated β measure and scaling to 0–10. The occupation-to-major mapping itself (which SOC code best
+    represents each major) is my own judgment, built on standard career-pathway knowledge, not an official
+    crosswalk — a different reasonable mapping would shift some scores. Only Liberal Arts &amp; General Studies
+    and Interdisciplinary &amp; General Studies remain rubric estimates, honestly uncited, since no single
+    occupation reasonably represents them. Anthropic Economic Index figures (real Claude.ai usage data, not
+    hypothetical ratings) are layered in as separate context above. Treat the whole thing as an illustrative
+    exploration, not a forecast of which majors or careers will change — the same caveat Karpathy gave his own
+    project.
+  </footer>
+</div>
+
+<div id="tooltip"></div>
+
+<script src="chart.js"></script>
+</body>
+</html>
