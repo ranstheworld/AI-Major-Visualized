@@ -4,7 +4,7 @@
 A treemap of 91 U.S. bachelor's degree fields, sized by annual degrees conferred and colored by a
 real, cited AI-exposure score — not a guess dressed up as one.
 
-[Live demo →][(https://ranstheworld.github.io/AI-Major-Visualized/)]
+Live demo →(https://ranstheworld.github.io/AI-Major-Visualized/
 ---
 
 ## The finding worth your two minutes
