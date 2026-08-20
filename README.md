@@ -1,4 +1,4 @@
-# Is-Your-Major-Safe-from-AI-AI-Safe-Majors-
+# AI-MAJOR-VISUALIZED
 # Which College Majors Sit Closest to What AI Can Already Do?
 
 A treemap of 91 U.S. bachelor's degree fields, sized by annual degrees conferred and colored by a
